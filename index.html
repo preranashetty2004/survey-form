@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey form</title>
+        <link rel="stylesheet" href="./style.css"/>
+        </head>
+        <body>
+         <header class="survey">Survey Form</header>
+         <hr>
+            <form action="backend.php">
+               <div class="align">
+
+                <div>
+                    <h3>Name:</h3>
+                    <input type="text" placeholder="Enter your name"/>
+                    </div>
+                    <div>
+                        <h3>USN:</h3>
+                        <input type="text" placeholder="Enter your USN"/>
+                        </div>
+                            <div>
+                               <h3>Email:</h3>
+                               <input type="text" name="email" placeholder="Enter your email"/>
+                            </div>
+         
+             <div>
+                <h3>Age:</h3>
+                <input type="text" name="age" placeholder="Enter your age"/>
+             </div>
+             <div>
+                <h3>Gender:</h3>
+                Male<input type="radio" name="yourgender"><br>
+                Female<input type="radio" name="yourgender"><br>
+                Other<input type="radio" name="yourgender"><br>
+             </div>
+             <div>
+            <h3>Year:</h3>
+            1st<input type="radio"  name="myYear" ></br>
+            2nd<input type="radio" name="myYear" ></br>
+            3rd<input type="radio"  name="myYear"></br>
+            4th<input type="radio"  name="myYear"> </br>
+         </div>
+         <div >
+            <h3>Languages And Framework known:</h3>
+            C<input type="checkbox" name="languages"></br>
+            C++<input type="checkbox" name="languages"></br>
+            Java<input type="checkbox" name="languages"></br>
+            Python<input type="checkbox" name="languages"></br>
+            React<input type="checkbox" name="languages"></br>
+            Javascript<input type="checkbox" name="languages"></br>
+            Angular<input type="checkbox" name="languages"></br>
+            Django<input type="checkbox" name="languages"></br>
+            
+         </div>
+         <br>
+         <div>
+            <input type="submit" name="submit" value="submit"> <input type="reset" name="reset" value="reset">
+         </div>
+      </div>
+
+
+    </form>
+    
+</body>
+</html>
